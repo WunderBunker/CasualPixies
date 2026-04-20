@@ -1,11 +1,121 @@
 body {
   font-family: Arial, sans-serif;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   background: #111;
   color: #eee;
+  line-height: 1.6;
 }
+
+/* ===== TITRES ===== */
 
 h1 {
   color: #00ffcc;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 40px;
+  border-bottom: 2px solid #00ffcc;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 1.8em;
+  margin-top: 30px;
+}
+
+/* ===== SECTIONS ===== */
+
+section {
+  margin-bottom: 50px;
+}
+
+.game {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* ===== LIENS ===== */
+
+a {
+  color: #00ffcc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* ===== BOUTON DOWNLOAD ===== */
+
+a[href*="play.google.com"] {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #00ffcc;
+  color: #111;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+a[href*="play.google.com"]:hover {
+  background: #00ccaa;
+}
+
+/* ===== IMAGES ===== */
+
+.cover {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+/* ===== SCREENSHOTS ===== */
+
+.screenshots {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+
+.screenshots img {
+  width: 30%;
+  min-width: 150px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.screenshots img:hover {
+  transform: scale(1.05);
+}
+
+
+/* ===== VIDEO ===== */
+
+iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 340px;
+  display: block;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+/* ===== LISTES ===== */
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
 }
